@@ -1,0 +1,30 @@
+{
+  "name": "angular-easyui",
+  "homepage": "https://github.com/zard110/angular-easyui",
+  "authors": [
+    "zard110 <zhangk1986@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.8",
+    "bootstrap": "~3.3.6",
+    "angular-ui-router": "ui-router#~0.2.15",
+    "restangular": "~1.5.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": "dist/css/bootstrap.css",
+      "dist": "dist/js/bootstrap.js"
+    }
+  }
+}
